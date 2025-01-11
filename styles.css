@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-align: center;
     overflow: hidden;
 }
