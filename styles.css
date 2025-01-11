@@ -16,26 +16,27 @@ body {
     flex-direction: column;
     align-items: center;
     background: rgba(255, 255, 255, 0.8);
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* ปรับขนาดกล่องให้เข้ากับหน้าจอโทรศัพท์ */
 }
 .bear-image {
-    width: 300px; /* เพิ่มขนาดรูปหมี */
-    height: 300px; /* เพิ่มขนาดรูปหมี */
+    width: 250px; /* ปรับขนาดรูปหมี */
+    height: 250px; /* ปรับขนาดรูปหมี */
     transition: transform 0.5s;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .buttons {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     position: relative;
     width: 100%;
 }
 .button {
-    padding: 20px 40px; /* เพิ่มขนาดปุ่ม */
-    font-size: 24px; /* เพิ่มขนาดตัวอักษร */
+    padding: 15px 30px; /* ปรับขนาดปุ่ม */
+    font-size: 20px; /* ปรับขนาดตัวอักษร */
     cursor: pointer;
     border: none;
     border-radius: 10px;
@@ -48,34 +49,34 @@ body {
 .love-button {
     background-color: #ff69b4;
     color: white;
-    margin-right: 40px; /* เพิ่มช่องว่างระหว่างปุ่ม */
-    width: 230px;
+    margin-right: 20px; /* เพิ่มช่องว่างระหว่างปุ่ม */
+    width: 200px;
 }
 .no-love-button {
     background-color: #87ceeb;
     color: white;
     position: relative;
     left: 10px; /* ตั้งตำแหน่งเริ่มต้น */
-    width: 230px; /* เพิ่มความยาวของปุ่ม */
+    width: 200px; /* เพิ่มความยาวของปุ่ม */
 }
 .message {
     display: none;
-    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-size: 30px; /* ปรับขนาดข้อความ */
     font-weight: bold;
     color: #ff69b4;
-    margin-top: 30px;
+    margin-top: 20px;
     animation: fadeIn 1s ease-in-out;
 }
 .message1 {
-    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-size: 30px; /* ปรับขนาดข้อความ */
     font-weight: bold;
     color: #ff8800;
-    margin-top: 30px;
+    margin-top: 20px;
     animation: fadeIn 1s ease-in-out;
 }
 .message2 {
     display: none;
-    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-size: 30px; /* ปรับขนาดข้อความ */
     font-weight: bold;
     color: #ff0000;
     margin-top: 20px;
@@ -83,7 +84,7 @@ body {
 }
 .message3 {
     display: none;
-    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-size: 30px; /* ปรับขนาดข้อความ */
     font-weight: bold;
     color: #ffa9ec;
     margin-top: 20px;
