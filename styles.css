@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.bear-image {
+    width: 300px; /* เพิ่มขนาดรูปหมี */
+    height: 300px; /* เพิ่มขนาดรูปหมี */
+    transition: transform 0.5s;
+    margin-top: 40px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+}
+.button {
+    padding: 20px 40px; /* เพิ่มขนาดปุ่ม */
+    font-size: 24px; /* เพิ่มขนาดตัวอักษร */
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.love-button {
+    background-color: #ff69b4;
+    color: white;
+    margin-right: 40px; /* เพิ่มช่องว่างระหว่างปุ่ม */
+    width: 230px;
+}
+.no-love-button {
+    background-color: #87ceeb;
+    color: white;
+    position: relative;
+    left: 10px; /* ตั้งตำแหน่งเริ่มต้น */
+    width: 230px; /* เพิ่มความยาวของปุ่ม */
+}
+.message {
+    display: none;
+    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-weight: bold;
+    color: #ff69b4;
+    margin-top: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+.message1 {
+    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-weight: bold;
+    color: #ff8800;
+    margin-top: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+.message2 {
+    display: none;
+    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-weight: bold;
+    color: #ff0000;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+.message3 {
+    display: none;
+    font-size: 36px; /* เพิ่มขนาดข้อความ */
+    font-weight: bold;
+    color: #ffa9ec;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
